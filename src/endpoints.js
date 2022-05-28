@@ -46,6 +46,7 @@ server.post('/dia4/fatorial' , (req, resp)=>{
 export default server;
 
 
+
 server.post('/dia4/sequenciapar', (req, resp) => {
   try {
       const a = req.body.limite
